@@ -7,6 +7,9 @@
       "wdth" 100;
   }
 /* this color mazed err z */
+.secondry-background{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -182,4 +185,31 @@ main{
 }
 .resume-download-cv{
     margin-top: 50px;
+}
+
+/* footer style */
+.secondry-background{
+    margin-top: 50px;
+}
+
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 50px;
+}
+.footer-column{
+    width: 50%;
+}
+.pooter-title{
+    font-weight: 700px;
+}
+footer input[type="text"],footer input[type="gmail"],footer textarea{
+    width: 100%;
+    height: 64px;
+    border-radius: 5px;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    background-color: white;
+    border: none;
 }
